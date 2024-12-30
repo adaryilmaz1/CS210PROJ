@@ -1,11 +1,29 @@
 # CS210PROJ
-# Project Description:
-The daily of calorie expenditure on my sleep quality analyzed on a daily basis.  The goal is to uncover trends and correlations between sleep quality and daily energy usage to better understand how lifestyle habits impact on sleep quality.
-# Data set
-The dataset consist of daily calorie expenditure and sleep data (total  sleep hours, REM sleep, deep sleep) and the dataset spans one month and includes daily records of calorie expenditure and sleep metrics. 
-# Plan of Project
-Getting the data from apple watch's health application (sleep and calories).  
-Explore and visualize trends in calorie expenditure and sleep quality.
-Identify potential correlations between sleep patterns and daily energy usage.
-Exploratory Data Analysis (EDA): Summarize data distributions and identify missing or anomalous data points.
-Visalization: Generate line charts for calorie and sleep trends and create scatter plots to explore correlations.
+# Spotify Data Analysis Project
+
+## Motivation
+This project aims to explore my Spotify listening data to uncover patterns in my music preferences, genre trends, and how audio features correlate with track popularity. Understanding these patterns can provide insights into personal habits and broader music trends.
+
+## Data Source
+- **Spotify API**: Used to fetch listening history and audio feature data for tracks.
+- **Personal Data**: Extracted from Spotify’s data export feature.
+
+## Project Plan
+1. **Data Collection (Complete)**:
+   - Used Spotify Web API to collect data.
+   - Cleaned and preprocessed the dataset.
+
+2. **Exploratory Data Analysis**:
+   - Analyze listening habits (e.g., most played genres, artists, and tracks).
+   - Explore time-based trends (daily/weekly listening patterns).
+
+3. **Audio Feature Analysis**:
+   - Examine features like tempo, energy, valence, and danceability.
+   - Correlate audio features with track popularity.
+
+
+ ## Tools and Technologies
+- **Programming Language**: Python
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **API**: Spotify Web API
+- **Version Control**: Git/GitHub      
